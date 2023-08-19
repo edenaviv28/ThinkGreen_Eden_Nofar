@@ -1,3 +1,7 @@
+
+/**
+* License: https://bootstrapmade.com/license/
+*/
 (function() {
   //מגדיר שהקוד במצב קפדני כלומר אם משתנה לא מוגדר כפי שצריך הקוד לא יעבודד
   "use strict";

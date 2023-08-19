@@ -1,5 +1,12 @@
+/**
+* License: https://bootstrapmade.com/license/
+*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+
 body {
+
   font-family: "Open Sans", sans-serif;
   color: #444444;
   direction: rtl;
@@ -34,20 +41,28 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #72c0f9;
+  background: #2487ce;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
-
 }
 
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #3e9bdd;
+  color: #fff;
+}
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
-
 
 /*--------------------------------------------------------------
 # Preloader
@@ -139,6 +154,7 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+  max-width: 110px;
 }
 
 @media (max-width: 992px) {
@@ -391,7 +407,7 @@ h6 {
 }
 
 #hero .icon-box {
-  padding: 30px 30px;
+  padding: 15px 10px  ;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -411,9 +427,9 @@ h6 {
 
 
 #hero .icon-box .description {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: -12;
   direction: rtl;
 }
 
@@ -471,7 +487,7 @@ h6 {
 # עיצוב לכל הסקשיינים באתר
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
+  padding: 25px 0;
   overflow: hidden;
 }
 
@@ -567,6 +583,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding: 60px 0;
+  position: relative;
 }
 
 .counts .count-box {
@@ -585,7 +602,8 @@ section {
 }
 
 .counts .count-box p {
-  padding: 8px 0 0 0;
+  padding: 0;
+  margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -946,8 +964,8 @@ section {
 }
 
 .Carousel .swiper-pagination {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: -12px;
+  margin-bottom: 6px;
   position: relative;
 }
 
@@ -1016,6 +1034,8 @@ section {
 
 .Solution .card-title {
   font-weight: 700;
+  font-size: 24px;
+  color: #124265;
   text-align: center;
 }
 
